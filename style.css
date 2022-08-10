@@ -79,13 +79,12 @@ ul {list-style-type: none;}
         display: block;
         border-radius: 50%;}
 .dropdown-menu a:hover {color:  #679700; background: white;}
-.dropdown-menu {padding: 17px 17px 10px 15px; border: none; height: 500px; margin-top: 0 !important;}
+.dropdown-menu {padding: 17px 24px 10px 26px; border: none; height: 500px; margin-top: 0 !important; background: rgb(242, 248, 238);}
 
 
 #left-menu, #right-pages{height: 500px;}
 #left-menu {padding-top: 17px; padding-bottom: 17px; border-right: 1px solid #e9e9e9;}
 #left-menu .nav-link:hover {color:  #679700;}
-/* #left-menu .flex-column {font-weight: 600;} */
 #left-menu .flex-column .active {color:  #679700;}
 #left-menu a, .dropdown-menu a {color: #343a40; font-weight: 600;}
 #left-menu i, .dropdown-menu i {margin-right: 10px; font-size: 14px;}
