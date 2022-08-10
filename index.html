@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/9111b32014.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="icon" href="favicon.ico"> -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <title>Aroma Fay</title>
+</head>
+<body>
+<div class="container">    
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #85a73c;">
+                <div class="container-fluid">
+                        <a class="navbar-brand img" href="#"><img src="temp/1.jpg" alt="" width="80" height="80" class="d-inline-block align-text-top"></a>
+                        <a class="navbar-brand me-auto" href="index.html"><h3>Имя Фамилия</h3><h6>название профессии</h6></a>
+            
+                        <div class="i-hide"> 
+                                <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-skype"></i></a></li>    
+                                </ul>      
+                        </div>
+                        <div class="drop-menu">
+                                <a class="btn-toggler ml-auto nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown"><span></span></a>
+                                <ul class="dropdown-menu nav-tabs" role="tablist" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#about"><i class="fas fa-user-tie"></i>Обо мне</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#personal"><i class="fa-solid fa-spray-can"></i>Личный аромат</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#design"><i class="fa-solid fa-flask-vial"></i>Аромадизайн</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#tetta"><i class="fa-solid fa-heart-pulse"></i>Тетасессии</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#money"><i class="fa-solid fa-sack-dollar"></i>Денежные смеси</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#space"><i class="fa-solid fa-person-shelter"></i>Организация пространства</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#meeting"><i class="fa-solid fa-handshake-simple"></i>Совместные мероприятия</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#travel"><i class="fa-solid fa-plane"></i>Путешествия</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#diagnostics"><i class="fa-solid fa-fire-flame-simple"></i>Эфирная диагностика</a></li>
+                                        <li><a class="dropdown-item" role="tab" data-toggle="tab" href="#meditation"><i class="fa-solid fa-sun"></i>Медитации</a></li>
+                                </ul>
+                        </div>
+                </div>
+        </nav>
+        
+        <div class="container-fluid">
+                <div class="row">
+
+                        <div class="col-lg-3 menu-hide" id="left-menu"> 
+                                <ul class="nav nav-tabs flex-column" role="tablist">
+                                        <li class="nav-item"><a class="nav-link active" aria-current="page" role="tab" data-toggle="tab" href="#about"><i class="fas fa-user-tie"></i>Обо мне</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#personal"><i class="fa-solid fa-spray-can"></i>Личный аромат</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#design"><i class="fa-solid fa-flask-vial"></i>Аромадизайн</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tetta"><i class="fa-solid fa-heart-pulse"></i>Тетасессии</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#money"><i class="fa-solid fa-sack-dollar"></i>Денежные смеси</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#space"><i class="fa-solid fa-person-shelter"></i>Организация пространства</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#meeting"><i class="fa-solid fa-handshake-simple"></i>Совместные мероприятия</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#travel"><i class="fa-solid fa-plane"></i>Путешествия</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#diagnostics"><i class="fa-solid fa-fire-flame-simple"></i>Эфирная диагностика</a></li>
+                                        <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#meditation"><i class="fa-solid fa-sun"></i>Медитации</a></li>
+                                </ul>
+                        </div> 
+
+                      
+                        <div class="col-lg-9" id="right-pages"> 
+                                
+                                <div class="tab-content">
+                                        <div class="tab-pane active" role="tabpanel" id="about"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <img src="temp/2.jpg" alt="фото автора">
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>Обо мне</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                <li><span>Телефон:</span> 8900-000-00-00</li>  
+                                                                <li><span>E-mail:</span> 8900fff@gmail.com</li> 
+                                                                <li><span>Еще что-то:</span> текст текст текст</li> 
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                         </div> 
+                                
+                                        <div class="tab-pane" role="tabpanel" id="personal"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про ПЕРСОНАЛЬНЫЙ АРОМАТ</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>ПЕРСОНАЛЬНЫЙ АРОМАТ</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                         </div> 
+                                     
+
+                               
+                                        <div class="tab-pane" role="tabpanel" id="design"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про АРОМАДИЗАЙН</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>АРОМАДИЗАЙН</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>  
+
+                                        <div class="tab-pane" role="tabpanel" id="tetta"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про ТЕТТА</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>ТЕТТА</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>  
+
+                                        <div class="tab-pane" role="tabpanel" id="money"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про ДЕНЕЖНЫЕ СМЕСИ</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>ДЕНЕЖНЫЕ СМЕСИ</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div> 
+
+                                        <div class="tab-pane" role="tabpanel" id="space"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про ОРГ ПРОСТРАНСТВА</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>ОРГ ПРОСТРАНСТВА</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div> 
+
+                                        <div class="tab-pane" role="tabpanel" id="meeting"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про МЕРОПРИЯТИЯ</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>Совместные МЕРОПРИЯТИЯ</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div> 
+
+                                        <div class="tab-pane" role="tabpanel" id="travel"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про ПУТЕШЕСТВИЯ</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>ПУТЕШЕСТВИЯ</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div> 
+
+                                        
+                                        <div class="tab-pane" role="tabpanel" id="diagnostics"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про ДИАГНОСТИКУ</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>ЭФИРНАЯ ДИАГНОСТИКА</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+                                        <div class="tab-pane" role="tabpanel" id="meditation"> 
+                                                <div class="row">
+                                                        
+                                                        <div class="col-lg-6 left">
+                                                                <p>тут будет контент про МЕДИТАЦИИ</p>
+                                                        </div>
+                                                        <div class="col-lg-6 right">
+                                                                <div class="title"><h5>МЕДИТАЦИИ</h5></div>
+                                                                <p>правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента правая часть контента</p>
+                                                                <p>текст текст текст текст текст текст  текст текст текст  текст текст текст </p>
+                                                                <ul>
+                                                                        <li>список</li>  
+                                                                        <li>список</li>   
+                                                                        <li>список</li>  
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+
+
+                                </div>        
+                        </div>           
+                </div>       
+        </div>
+</div>
+
+       
+</div> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
